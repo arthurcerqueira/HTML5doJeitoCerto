@@ -3,32 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>02-Iniciando Marcação</title>
+    <title>03-Recipientes Conteúdo e Rodapé</title>
 
     <!-- [if lt IE 9]> 
        <script src="js/html5shiv.min.js"> </script> 
     <! [endif] -->
 
+        <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
-    <header class="main_header">
-        <h1 class="main_logo">
+    <header class="container bg-gray">
+        <div class="content">
+         <h1 class="main_logo">
             <a title="Home" href="index">
-                02-Iniciando Marcação
+                03-Recipientes Conteúdo e Rodapé
             </a>   
-        </h1>
+         </h1>
 
-        <ul class="main_nav">
-            <li><a title="" href=""></a></li>
-        </ul>
+            <ul class="main_nav">
+                <li><a title="HTML5 Semântico" href="#semantico">Semântico</a></li>
+                <li><a title="Estilo Produtivo com OOCSS" href="#oocss">OOCSS</a></li>
+                <li><a title="Formulários com HTML5" href="#form">Forms</a></li>
+                <li><a title="Áudio e Vídeo na Web" href="#midia">Midia</a></li>
+                <li><a title="Geolocation e HTML Storage" href="#api">API´s</a></li>
+                <li><a title="Distribuição com Micro Dados" href="#dados">Dados</a></li>
+                <li><a title="Comprar Curso" href="#compra">Compra</a></li>
+            </ul>
+         <div class="clear"></div>
+        </div>
     </header>
 
     <!--CONTEÚDO-->
 
-    <footer class="main_footer">
-        <section>
-            <h1>UpInside Treinamentos</h1>
+    <footer class="container bg-light">
+        <section class="main_footer content">
+            <h1 class="fontzero">UpInside Treinamentos</h1>
+           
+            <nav class="main_nav">
+                <h1 class="title">Mais Sobre o Curso WS HTML5:</h1>
+                <ul>
+                    <li><a title="Assista o Vídeo de Apresentação" href="#apresentacao">Assista o Vídeo</a></li>
+                    <li><a title="Assista o Vídeo de Apresentação" href="#apresentacao">Assista o Vídeo</a></li>
+                    <li><a title="Assista o Vídeo de Apresentação" href="#apresentacao">Assista o Vídeo</a></li>
+                </ul>
+            </nav>
+
+            <article class="main_social">
+                <h1 class="title">UpInside nas redes sociais</h1>
+                <ul>
+                    <li><a target="_blank" rel="nofollow" title="UpInside Treinamentos no Facebook" href="https://www.facebook.com/upinside">Facebook</a></li>
+                    <li><a target="_blank" rel="nofollow" title="UpInside Treinamentos no Google +" href="https://plus.google.com/+upinside">Google+</a></li>
+                    <li><a target="_blank" rel="nofollow" title="UpInside Treinamentos no Twitter" href="https://www.twitter.com/UpInsideBR">Twitter</a></li>
+                </ul>
+
+            </article>
+
+            <article class="main_copy">
+                <h1 class="fontzero">PLataforma UpInside</h1>
+
+                <p><b>Plataforma EAD</b> <a title="Plataforma EAD do UpInside" href="http://www.upinside.com.br">www.upinsde.com.br</a></p>
+                <p><b>E-mail:</b> <a title="Envie um e-mail" href="mailto:cursos@upinside.com.br"> cursos@upinside.com.br </a></p>
+                <hr>
+                <p>&copy; 2020; - Upinside Treinamentos, Todos Os Direitos Reservados!</p>
+            </article>
+
+            <div class="clear"></div>
         </section>
     </footer>
 
