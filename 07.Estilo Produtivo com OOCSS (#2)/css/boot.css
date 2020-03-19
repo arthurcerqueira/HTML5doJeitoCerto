@@ -56,6 +56,32 @@ a img {border: 0;}
 /*CONTAINER*/
 .container{float: left; width: 100%}
 .content{width: 80%; margin: 0 10%; padding: 40px 0;}
+.content-page{padding: 60px 0;}
+
+.sectiontitle{float: left; width: 100%; margin-bottom: 30px; text-align: center;}
+.sectiontitle h1{font-size: 2.4em; font-weight: 300; margin-bottom: 10px;}
+.sectiontitle h2{font-size: 1.4em; font-weight: 300;}
+.sectiontitle-nomarge{margin: 0;}
 
 /*HELPERS*/
+.textshadow{text-shadow: 1px 1px 0 #ccc;}
+.boxshadow{-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); -moz-boz-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); box-shadow:  0px 3px 3px 0px rgba(0,0,0,0.3);}
+.radius{-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.last{margin-right: 0;}
 .clear{clear: both;}
+
+/*TEXT ALIGN*/
+.al-left{text-align: left;}
+.al-right{text-align: right;}
+.al-center{text-align: center;}
+
+/*FLOAT*/
+.fl-left{float: left;}
+.fl-right{float: right;}
+.fl-none{float: none;}
+
+/*DISPLAY*/
+.ds-block{display: block;}
+.ds-inblock{display: inline-block;}
+.ds-inline{display: inline;}
+.ds-none{display: none;}
