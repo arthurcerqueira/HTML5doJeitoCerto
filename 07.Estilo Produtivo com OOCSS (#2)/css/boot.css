@@ -137,3 +137,15 @@ a img {border: 0;}
 .trigger-infor{background-color: #9ab7cc; color: #60727f;}
 .trigger-alert{background-color: #c6b247; color: #776b2b;}
 .trigger-error{background-color: #e69f9f; color: #996a6a;}
+
+/*SHORT ICONS*/
+.shorticon{padding-left: 8%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
+.short-sectiontitle{padding-left: 60px;}
+
+.shorticon-facebook{background-image: url(boot/social/facebook.png);}
+.shorticon-google{background-image: url(boot/social/google.png);}
+.shorticon-twitter{background-image: url(boot/social/twitter.png);}
+
+.shorticon-config{background-image: url(boot/icons/config.png);}
+.shorticon-mail{background-image: url(boot/icons/mail.png);}
+.shorticon-section{background-image: url(boot/icons/section.png);}
