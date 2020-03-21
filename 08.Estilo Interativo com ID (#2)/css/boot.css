@@ -67,7 +67,7 @@ a img {border: 0;}
 .textshadow{text-shadow: 1px 1px 0 #ccc;}
 .boxshadow{-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); -moz-boz-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); box-shadow:  0px 3px 3px 0px rgba(0,0,0,0.3);}
 .radius{-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
-.last{margin-right: 0;}
+.last{margin-right: 0 !important;}
 .clear{clear: both;}
 
 /*TEXT ALIGN*/
