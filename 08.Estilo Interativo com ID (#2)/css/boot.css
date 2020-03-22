@@ -141,7 +141,7 @@ a img {border: 0;}
 
 /*SHORT ICONS*/
 .shorticon{padding-left: 8%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
-.short-sectiontitle{padding-left: 60px;}
+.shorticon-sectiontitle{padding-left: 60px;}
 
 .shorticon-facebook{background-image: url(boot/social/facebook.png);}
 .shorticon-google{background-image: url(boot/social/google.png);}

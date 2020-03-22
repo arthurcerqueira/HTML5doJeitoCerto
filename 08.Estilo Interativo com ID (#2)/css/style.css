@@ -35,3 +35,11 @@
 .main_tec_item img{padding: 25px; width: 80%; margin: 0 10%; background: #eee; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; margin-bottom: 15px;}
 .main_tec_item h1{font-size: 1.5em;margin-bottom: 15px;}
 .main_tec_item .tagline{font-size: 0.9em; font-weight: normal;}
+
+/*FICHA TÉCNICA*/
+.main_info{padding: 25px; background: #eee; text-align: center;}
+.main_info h1{font-size: 1em;}
+.main_info b{display: block; font-size: 4em;}
+
+/*DOBRA DE CONVERSÂO*/
+.main_chamada{float: left; width: 80%; margin: 40px 10% 0 10%; font-size: 1.5em; font-weight: 300;}
