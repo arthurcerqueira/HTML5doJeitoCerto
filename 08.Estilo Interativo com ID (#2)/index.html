@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>15-Estilizando Footer Principal</title>
+    <title>16-Projetando Dobra Principal</title>
 
     <!-- [if lt IE 9]> 
        <script src="js/html5shiv.min.js"> </script> 
@@ -42,56 +42,60 @@
         <article class="container">
             <div class="content">
                 <header>
-                   <hgroup>
+                   <hgroup class="sectiontitle">
                         <h1>Conheça o curso de WS HTML5!</h1>
                         <h2>Veja o que o tutor do curso <mark>Robson V. Leite</mark> tem a dizer</h2>
                     </hgroup> 
                 </header>
     
                 <div>
-                    <iframe width="350" height="200" src="https://www.youtube.com/embed/U9v8k6ztBmE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="video video-large main_video" width="350" height="500" src="https://www.youtube.com/embed/U9v8k6ztBmE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
-                <aside>
-                   <h1>Pronto para <a title="Comprar Curso WS HTML5 Agora!" target="_blank" href="https://www.upinside.com.br/curso/curso-html5" > Comprar o WS HTML5</a> e Aprender de Verdade?</h1> 
+                <aside class="al-center">
+                   <h1>Pronto para <a class="btn btn-green radius" title="Comprar Curso WS HTML5 Agora!" target="_blank" href="https://www.upinside.com.br/curso/curso-html5" > Comprar o WS HTML5</a> e Aprender de Verdade?</h1> 
                 </aside>
 
                 <div class="clear"></div>
                 </div>
 
                 <footer class="bg-bluelight">
-                    <section class="content">
+                    <section class="content main_videos" style="padding-bottom: 10px;">
                         <h1>Veja Algumas Aulas do Curso WS HTML5!</h1>
                         
-                        <article>
-                            <div class="thumb"></div>
+                        <article class="box box-small">
+                            <div class="thumb">
                                 <div class="video_play"></div>
                                 <img title="Vídeo Aula Entenda o HTML5" alt="Entenda o HTML5" src="img/entendendo-o-html5.jpg" alt="">
-                            <h1>Entenda o HTML5</h1>
+                            </div>    
+                                <h1 class="box_video_title">Entenda o HTML5</h1>
                         </article>
 
-                        <article>
-                            <div class="thumb"></div>
+                        <article class="box box-small">
+                            <div class="thumb">
                                 <div class="video_play"></div>
                                 <img title="Vídeo Aula Entenda o HTML5" alt="Entenda o HTML5" src="img/entendendo-o-html5.jpg" alt="">
-                            <h1>Entenda o HTML5</h1>
+                            </div>
+                                <h1 class="box_video_title">Entenda o HTML5</h1>
                         </article>
 
-                        <article>
-                            <div class="thumb"></div>
+                        <article class="box box-small">
+                            <div class="thumb">
                                 <div class="video_play"></div>
                                 <img title="Vídeo Aula Entenda o HTML5" alt="Entenda o HTML5" src="img/entendendo-o-html5.jpg" alt="">
-                            <h1>Entenda o HTML5</h1>
+                            </div>
+                                <h1 class="box_video_title">Entenda o HTML5</h1>
                         </article>
 
-                        <article>
-                            <div class="thumb"></div>
+                        <article class="box box-small last">
+                            <div class="thumb">
                                 <div class="video_play"></div>
                                 <img title="Vídeo Aula Entenda o HTML5" alt="Entenda o HTML5" src="img/entendendo-o-html5.jpg" alt="">
-                            <h1>Entenda o HTML5</h1>
+                            </div>
+                                <h1 class="box_video_title">Entenda o HTML5</h1>
                         </article>
 
-
+                        
                         <div class="clear"></div>
                     </section>   
                 </footer>
@@ -101,7 +105,7 @@
         <section class="container bg-orange"> 
         <!--CONTAINER DO TITLE-->               
             <div class="content">
-                <hgroup>
+                <hgroup class="sectiontitle sectiontitle-nomargin">
                     <h1>Conheça as Tecnologias Apresentadas:</h1>
                     <h2>O Curso WS HTML5 apresenta técnicas com foco em produção e otimização de conteúdo para internet</h2>
                 </hgroup>

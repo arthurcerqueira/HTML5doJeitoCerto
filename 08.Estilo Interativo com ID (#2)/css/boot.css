@@ -61,7 +61,7 @@ a img {border: 0;}
 .sectiontitle{float: left; width: 100%; margin-bottom: 30px; text-align: center;}
 .sectiontitle h1{font-size: 2.4em; font-weight: 300; margin-bottom: 10px;}
 .sectiontitle h2{font-size: 1.4em; font-weight: 300;}
-.sectiontitle-nomarge{margin: 0;}
+.sectiontitle-nomargin{margin: 0;}
 
 /*HELPERS*/
 .textshadow{text-shadow: 1px 1px 0 #ccc;}
